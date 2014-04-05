@@ -8,7 +8,7 @@ from mptt.admin import MPTTModelAdmin
 
 from forms import FlatpageForm, MenuItemForm
 from models import FlatPage_i18n, MenuItem
-from widgets import RedactorEditor
+from redactor.widgets import RedactorEditor
 
 
 class FlatPageAdmin(MPTTModelAdmin, TranslationAdmin):
