@@ -14,8 +14,7 @@ setup(
     url='https://github.com/PragmaticMates/django-flatpages-i18n',
     packages=[
         'flatpages_i18n',
-        'flatpages_i18n.templatetags',
-        'flatpages_i18n.migrations'
+        'flatpages_i18n.templatetags'
     ],
     include_package_data=True,
     install_requires=('South', 'django_modeltranslation', 'django', 'django_mptt'),
